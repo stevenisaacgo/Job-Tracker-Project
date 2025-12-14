@@ -1,0 +1,28 @@
+{
+  "name": "job-tracker-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "playground-1.mongodb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenisaacgo/Job-Tracker-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/stevenisaacgo/Job-Tracker-Project/issues"
+  },
+  "homepage": "https://github.com/stevenisaacgo/Job-Tracker-Project#readme",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/release-notes-generator": "^14.1.0",
+    "semantic-release": "^25.0.2"
+  }
+}
