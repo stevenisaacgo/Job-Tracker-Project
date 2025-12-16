@@ -10,6 +10,7 @@
 !.yarn/releases
 !.yarn/versions
 
+<<<<<<< HEAD
 # --------------------
 # TESTING / SCRATCH
 # --------------------
@@ -18,6 +19,12 @@ test-local.js
 scratch.js
 playground-*.js
 *.mongodb.js
+=======
+# testing
+/coverage
+test-local.js
+scratch.js
+>>>>>>> origin/main
 
 # --------------------
 # BUILDS
@@ -27,6 +34,7 @@ playground-*.js
 **/.next/
 **/out/
 
+<<<<<<< HEAD
 # --------------------
 # ENV (never commit)
 # --------------------
@@ -38,11 +46,26 @@ playground-*.js
 # LOGS / DEBUG
 # --------------------
 **/*.log
+=======
+# production
+dist/
+/build
+
+# misc
+.DS_Store
+*.pem
+Thumbs.db
+.cache/
+
+# debug
+>>>>>>> origin/main
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+*.log
 
+<<<<<<< HEAD
 # --------------------
 # OS / EDITORS
 # --------------------
@@ -51,12 +74,19 @@ Thumbs.db
 .cache/
 .vscode/
 .idea/
+=======
+# env files (can opt-in for committing if needed)
+.env*
+.env.*
+!.env.example
+>>>>>>> origin/main
 
 # --------------------
 # VERCEL
 # --------------------
 .vercel
 
+<<<<<<< HEAD
 # --------------------
 # TYPESCRIPT
 # --------------------
@@ -67,3 +97,12 @@ Thumbs.db
 # SECURITY
 # --------------------
 *.pem
+=======
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+#mongodb
+playground-*.js
+*.mongodb.js
+>>>>>>> origin/main
